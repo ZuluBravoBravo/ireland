@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rules of the Road</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Rules of the Road</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="music.html">Musical Adventures</a>
+      <a href="newsletter.html">The Green Thumb</a>
+      <a href="rules.html">Rules of the Road</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Driving on the Left</h2>
+      <p>Always remember, Ireland drives on the left side of the road. <strong>Stay alert</strong> when crossing!</p>
+      <img src="images/placeholder-driving-left.jpg" alt="Driving on the left" />
+    </section>
+
+    <section>
+      <h2>Click for a Hitchhiking Tip</h2>
+      <button onclick="showTip()">Get a Tip</button>
+      <p id="tipArea" style="font-weight: bold; color: darkgreen;"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Zach Baker</p>
+  </footer>
+
+  <script>
+    const tips = [
+      "Use a sign with your destination name.",
+      "Smile! You’re more likely to get a lift.",
+      "Stand where there's space for a car to pull over safely.",
+      "Avoid hitchhiking at night for safety."
+    ];
+
+    function showTip() {
+      const randomIndex = Math.floor(Math.random() * tips.length);
+      document.getElementById("tipArea").innerText = tips[randomIndex];
+    }
+  </script>
+</body>
+</html>

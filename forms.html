@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Get in Touch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="music.html">Musical Adventures</a>
+      <a href="newsletter.html">The Green Thumb</a>
+      <a href="form.html">Get in Touch</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Send Me a Message</h2>
+      <form id="contactForm">
+        <label>Name:<br><input type="text" id="name" required /></label><br><br>
+        <label>Email:<br><input type="email" id="email" required /></label><br><br>
+        <label>Message:<br><textarea id="message" rows="5" required></textarea></label><br><br>
+        <button type="submit">Send</button>
+      </form>
+      <p id="formStatus" style="color: green;"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Thanks for reaching out! Back to <a href="index.html">Home</a>.</p>
+  </footer>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+
+      if (!name || !email || !message) {
+        alert("Please fill in all fields.");
+        return;
+      }
+
+      document.getElementById("formStatus").innerText = "Thanks for your message!";
+      document.getElementById("contactForm").reset();
+    });
+  </script>
+</body>
+</html>
