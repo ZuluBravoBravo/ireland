@@ -81,13 +81,14 @@ th, td {
     align-items: center;
   }
 
-  img {
-  max-width: 300px;
-  width: auto;
-  height: auto;
+img {
+  max-width: 300px;  /* max width limit */
+  width: auto;       /* natural width */
+  height: auto;      /* natural height to keep aspect ratio */
   border-radius: 8px;
   margin: 10px;
-  display: block;
+  display: block;    /* helps prevent inline spacing issues */
 }
+
 
 }
