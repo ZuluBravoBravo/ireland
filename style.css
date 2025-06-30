@@ -26,8 +26,8 @@ main {
 }
 
 h1, h2, h3 {
-  font-family: "Georgia", serif;
-  color: orange;
+  font-family: "Courier New", monospace;
+  color: red;
 }
 
 footer {
