@@ -83,7 +83,13 @@ th, td {
   align-items: center;
 }
 
-  img {
-    max-width: 90%;
-  }
+img {
+  max-width: 300px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px;
+  display: block;
+}
+
 }
