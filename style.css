@@ -39,11 +39,12 @@ footer {
 }
 
 img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
+  max-width: 300px;   /* don't stretch wider than this */
+  width: auto;        /* use the image's natural width */
+  height: auto;       /* keep the aspect ratio */
   border-radius: 8px;
   margin: 10px;
+  display: block;     /* removes inline spacing issues */
 }
 
 .flex-container {
@@ -80,15 +81,6 @@ th, td {
     flex-direction: column;
     align-items: center;
   }
-
-img {
-  max-width: 300px;  /* max width limit */
-  width: auto;       /* natural width */
-  height: auto;      /* natural height to keep aspect ratio */
-  border-radius: 8px;
-  margin: 10px;
-  display: block;    /* helps prevent inline spacing issues */
-}
 
 
 }
