@@ -107,7 +107,7 @@ ul {
   padding-left: 0;
   margin: 0 auto;
   display: flex;
-  align-items: flex-start;
+  align-items: column;
   width: fit-content;
 }
 
