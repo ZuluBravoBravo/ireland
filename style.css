@@ -16,8 +16,8 @@ nav {
 }
 
 nav a {
-  color: #ffd700;
-  margin: 0 15px;
+  color: orange;
+  margin: 15px;
   text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ main {
 
 h1, h2, h3 {
   font-family: "Courier New", monospace;
-  color: red;
+  color: orange;
 }
 
 footer {
@@ -58,7 +58,7 @@ img {
 }
 
 table {
-  width: 50%;
+  width: 75%;
   border-collapse: collapse;
   margin-top: 20px;
   margin-left: auto;
