@@ -47,18 +47,13 @@
       return;
     }
 
-    // ✅ Create a JSON object
     const formData = {
       name: name,
       email: email,
       message: message
     };
 
-    // ✅ Log it or use it later
-    console.log("Form data as JSON:", JSON.stringify(formData));
-
-    // Optional: Save it to localStorage
-    // localStorage.setItem("lastContact", JSON.stringify(formData));
+    console.log(JSON.stringify(formData));
 
     document.getElementById("formStatus").innerText = "Thanks for your message!";
     document.getElementById("contactForm").reset();
