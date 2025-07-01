@@ -69,6 +69,8 @@ figcaption {
 
 .flex-container {
   display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
