@@ -60,8 +60,14 @@
 
   function showWisdom() {
     const randomIndex = Math.floor(Math.random() * wisdomLines.length);
-    document.getElementById("wisdom").innerText = wisdomLines[randomIndex];
+    const selectedWisdom = wisdomLines[randomIndex];
+    document.getElementById("wisdom").innerText = selectedWisdom;
+
+    let history = JSON.parse(localStorage.getItem("wisdomHistory")) || [];
+    history.push(selectedWisdom);
+    localStorage.setItem("wisdomHistory", JSON.stringify(history));
   }
+  
 </script>
 </body>
 </html>
