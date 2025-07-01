@@ -81,7 +81,7 @@ figcaption {
 }
 
 .flex-container img {
-  max-width: 300px;
+  max-width: 600px;
   height: auto;
   border-radius: 8px;
   display: block;
