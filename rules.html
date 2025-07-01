@@ -26,8 +26,8 @@
 
     <section>
       <h2>Click for some wisdom</h2>
-      <button onclick="showTip()">wisdom</button>
-      <p id="tipArea" style="font-weight: bold; color: darkgreen;"></p>
+      <button onclick="wisdom()">wisdom</button>
+      <p id="wisdom" style="font-weight: bold; color: darkgreen;"></p>
     </section>
   </main>
 
@@ -36,7 +36,7 @@
   </footer>
 
   <script>
-    const tips = [
+    const wisdom = [
       "Tis better to spend money like there’s no tomorrow than to spend tonight like there’s no money!",
       "May you have the hindsight to know where you’ve been, the foresight to know where you are going, and the insight to know when you have gone too far."
       "It’s easy to halve the potato where there’s love.",
@@ -45,9 +45,9 @@
       "Forgetting a debt doesn’t mean it’s paid."
     ];
 
-    function showTip() {
+    function wisdom() {
       const randomIndex = Math.floor(Math.random() * tips.length);
-      document.getElementById("tipArea").innerText = tips[randomIndex];
+      document.getElementById("wisdom").innerText = tips[randomIndex];
     }
   </script>
 </body>
