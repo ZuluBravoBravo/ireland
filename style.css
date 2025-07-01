@@ -30,6 +30,12 @@ h1, h2, h3 {
   color: orange;
 }
 
+p {
+  font-family: "Courier New", monospace;
+  color: darkgreen;
+}
+
+
 footer {
   background-color: orange;
   color: green;
