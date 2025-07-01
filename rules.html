@@ -26,7 +26,7 @@
 
     <section>
       <h2>Click for some wisdom</h2>
-      <button onclick="wisdom()">wisdom</button>
+      <button onclick="showWisdom()">wisdom</button>
       <p id="wisdom" style="font-weight: bold; color: darkgreen;"></p>
     </section>
   </main>
@@ -35,20 +35,20 @@
     <p>© 2025 Zach Baker</p>
   </footer>
 
-  <script>
-    const wisdom = [
-      "Tis better to spend money like there’s no tomorrow than to spend tonight like there’s no money!",
-      "May you have the hindsight to know where you’ve been, the foresight to know where you are going, and the insight to know when you have gone too far."
-      "It’s easy to halve the potato where there’s love.",
-      "Every man is sociable until a cow invades his garden.",
-      "May you be at the gates of heaven an hour before the devil knows you’re dead!"
-      "Forgetting a debt doesn’t mean it’s paid."
-    ];
+<script>
+  const wisdomLines = [
+    "Tis better to spend money like there’s no tomorrow than to spend tonight like there’s no money!",
+    "May you have the hindsight to know where you’ve been, the foresight to know where you are going, and the insight to know when you have gone too far.",
+    "It’s easy to halve the potato where there’s love.",
+    "Every man is sociable until a cow invades his garden.",
+    "May you be at the gates of heaven an hour before the devil knows you’re dead!",
+    "Forgetting a debt doesn’t mean it’s paid."
+  ];
 
-    function wisdom() {
-      const randomIndex = Math.floor(Math.random() * wisdom.length);
-      document.getElementById("wisdom").innerText = wisdom[randomIndex];
-    }
-  </script>
+  function showWisdom() {
+    const randomIndex = Math.floor(Math.random() * wisdomLines.length);
+    document.getElementById("wisdom").innerText = wisdomLines[randomIndex];
+  }
+</script>
 </body>
 </html>
