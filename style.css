@@ -81,6 +81,13 @@ figcaption {
   gap: 15px;
 }
 
+.flex-container figure {
+  flex: 1 1 300px; /* allows images to be side by side and wrap responsively */
+  max-width: 45%;  /* adjust as needed */
+  box-sizing: border-box;
+  text-align: center;
+}
+
 table {
   width: 75%;
   border-collapse: collapse;
