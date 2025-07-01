@@ -77,13 +77,14 @@ figcaption {
 table {
   width: 75%;
   border-collapse: collapse;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto;
+  border: 2px solid darkgreen;
 }
 
-table, th, td {
-  border: 5px darkgreen;
+th, td {
+  border: 2px solid darkgreen;
+  padding: 10px;
+  text-align: center;
 }
 
 th, td {
