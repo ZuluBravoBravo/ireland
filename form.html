@@ -34,22 +34,35 @@
     <p>Thanks for reaching out! Back to <a href="index.html">Home</a>.</p>
   </footer>
 
-  <script>
-    document.getElementById("contactForm").addEventListener("submit", function (event) {
-      event.preventDefault();
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault();
 
-      const name = document.getElementById("name").value.trim();
-      const email = document.getElementById("email").value.trim();
-      const message = document.getElementById("message").value.trim();
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
 
-      if (!name || !email || !message) {
-        alert("Please fill in all fields.");
-        return;
-      }
+    if (!name || !email || !message) {
+      alert("Please fill in all fields.");
+      return;
+    }
 
-      document.getElementById("formStatus").innerText = "Thanks for your message!";
-      document.getElementById("contactForm").reset();
-    });
-  </script>
+    // ✅ Create a JSON object
+    const formData = {
+      name: name,
+      email: email,
+      message: message
+    };
+
+    // ✅ Log it or use it later
+    console.log("Form data as JSON:", JSON.stringify(formData));
+
+    // Optional: Save it to localStorage
+    // localStorage.setItem("lastContact", JSON.stringify(formData));
+
+    document.getElementById("formStatus").innerText = "Thanks for your message!";
+    document.getElementById("contactForm").reset();
+  });
+</script>
 </body>
 </html>
