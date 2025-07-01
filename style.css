@@ -72,16 +72,13 @@ figcaption {
 
 .flex-container {
   display: flex;
-  max-width: 1000px;
-  margin: 0 auto;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
   gap: 15px;
 }
 
 .flex-container img {
-  max-width: 600px;
+  max-width: 300px;
   height: auto;
   border-radius: 8px;
   display: block;
