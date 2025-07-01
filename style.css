@@ -77,6 +77,10 @@ figcaption {
   gap: 15px;
 }
 
+.flex-container figure {
+  margin: 0;
+}
+
 .flex-container img {
   max-width: 300px;
   height: auto;
@@ -106,8 +110,7 @@ ul {
   list-style-position: inside;
   padding-left: 0;
   margin: 0 auto;
-  display: flex;
-  align-items: column;
+  display: block;
   width: fit-content;
 }
 
@@ -115,6 +118,4 @@ ul {
   .flex-container {
     flex-direction: column;
     align-items: center;
-  }
-
 }
