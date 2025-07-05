@@ -33,12 +33,12 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  family: "Courier New", monospace;
+  font-family: "Courier New", monospace;
   color: orange;
 }
 
 h3 {
-  family: "Courier New", monospace;
+  font-family: "Courier New", monospace;
   color: darkgreen;
 }
 
