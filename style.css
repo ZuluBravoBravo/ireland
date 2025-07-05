@@ -26,17 +26,19 @@ main {
 }
 
 h1 {
+  font-size: 2em;
   font-family: "Courier New", monospace;
   color: orange;
 }
 
 h2 {
-  font-family: "Courier New", monospace;
+  font-size: 1.5em;
+  family: "Courier New", monospace;
   color: orange;
 }
 
 h3 {
-  font-family: "Courier New", monospace;
+  family: "Courier New", monospace;
   color: darkgreen;
 }
 
