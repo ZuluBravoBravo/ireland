@@ -21,6 +21,46 @@ nav a {
   text-decoration: none;
 }
 
+a:link {
+  color: orange;
+}
+
+/* Visited link */
+a:visited {
+  color: darkgreen;
+}
+
+/* Hovered link */
+a:hover {
+  color: gold;
+}
+
+/* Active link (being clicked) */
+a:active {
+  color: red;
+}
+🔥 Optional for your navbar:
+If you want just your nav links to change color, use a more specific selector:
+
+css
+Copy
+Edit
+nav a:link {
+  color: orange;
+}
+
+nav a:visited {
+  color: darkgreen;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+nav a:active {
+  color: red;
+}
+
 main {
   padding: 20px;
 }
