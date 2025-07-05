@@ -25,7 +25,12 @@ main {
   padding: 20px;
 }
 
-h1, h2 {
+h1 {
+  font-family: "Courier New", monospace;
+  color: orange;
+}
+
+h2 {
   font-family: "Courier New", monospace;
   color: orange;
 }
