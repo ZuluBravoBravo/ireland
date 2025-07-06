@@ -122,7 +122,7 @@ table {
   width: 75%;
   border-collapse: collapse;
   margin: 20px auto;
-  border: 2px solid darkgreen;
+  border: 6px solid darkgreen;
 }
 
 th, td {
