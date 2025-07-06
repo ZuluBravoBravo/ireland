@@ -5,10 +5,11 @@ body {
 }
 
 header {
-  background-color: #006400;
-  color: orange;
-  padding: 20px;
-  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Default nav links (unvisited) */
