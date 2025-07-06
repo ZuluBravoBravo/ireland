@@ -5,11 +5,10 @@ body {
 }
 
 header {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  justify-content: center;
+  background-color: #006400;
+  color: orange;
+  padding: 20px;
+  text-align: center;
 }
 
 /* Default nav links (unvisited) */
@@ -144,6 +143,7 @@ ul {
   padding: 10px;
   max-width: 1000px;
   margin: 20px auto;
+  background-color: #ffcc99; /* fixed light orange */
   border-radius: 10px;
 }
 
