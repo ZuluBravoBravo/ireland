@@ -4,6 +4,29 @@
   <meta charset="UTF-8">
   <title>The Green Thumb</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .flex-container img {
+      width: 75%;
+      margin-top: 10px;
+    }
+
+    .flex-container figcaption {
+      font-style: italic;
+      font-size: 20px;
+      color: darkgreen;
+      margin-bottom: 20px;
+    }
+
+    .summary-title {
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -17,25 +40,22 @@
   </header>
 
   <main>
-    
     <section class="flex-container">
       <h2>Weekly updates on road conditions, community attitudes, weather, and events for hitchhikers in Ireland.</h2>
 
-      <img src="images/Irish-Traffic-Jam.jpg" alt="Traffic jam with sheep"/>
-        <figcaption style="font-style: italic; font-size: 20px; color: darkgreen; margin-top: 5px;">
-             <strong>Typical irish traffic jam</strong>     
-          
-      <img src="images/irishhitchhikers.jpg" alt="Women hitchhiking"/>
-        <figcaption style="font-style: italic; font-size: 20px; color: darkgreen; margin-top: 5px;">
-          <strong>Remeber to smile and where clean clothes!</strong>
-        </figcaption>      
-      
+      <figure>
+        <img src="images/Irish-Traffic-Jam.jpg" alt="Traffic jam with sheep" />
+        <figcaption><strong>Typical Irish traffic jam</strong></figcaption>
+      </figure>
 
-        </figcaption>
+      <figure>
+        <img src="images/irishhitchhikers.jpg" alt="Women hitchhiking" />
+        <figcaption><strong>Remember to smile and wear clean clothes!</strong></figcaption>
+      </figure>
     </section>
 
     <section>
-      <h2>Weekly Summary Table</h2>
+      <h2 class="summary-title">Weekly Summary Table</h2>
       <table>
         <thead>
           <tr>
