@@ -119,7 +119,6 @@ figcaption {
   margin-top: 5px;
 }
 
-/* Table styling */
 table {
   width: 75%;
   border-collapse: collapse;
@@ -133,7 +132,6 @@ th, td {
   text-align: center;
 }
 
-/* Lists (if used) */
 ul {
   list-style-position: inside;
   padding-left: 0;
@@ -142,9 +140,7 @@ ul {
   width: fit-content;
 }
 
-/* Special box for musical traditions text */
 .text-box {
-  border: 1px solid darkgreen;
   padding: 10px;
   max-width: 1000px;
   margin: 20px auto;
