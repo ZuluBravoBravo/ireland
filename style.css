@@ -7,7 +7,7 @@ body {
 
 
 header {
-  background: linear-gradient(to right, #006400 25%, white 50%, orange 25%);
+  background: linear-gradient(to right, #006400 0% 25%, white 25% 75%, orange 75% 100%);
   color: darkgreen;
   padding: 20px;
   text-align: center;
