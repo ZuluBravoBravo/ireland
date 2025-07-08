@@ -7,15 +7,7 @@ body {
 
 
 header {
-  background: linear-gradient(
-    to right,
-    #006400 0%,
-    #006400 33.33%,
-    white 33.33%,
-    white 66.66%,
-    orange 66.66%,
-    orange 100%
-  );
+  background: linear-gradient(to right, #006400 33.33%, white 33.33% 66.66%, orange 66.66%);
   color: darkgreen;
   padding: 20px;
   text-align: center;
@@ -23,7 +15,6 @@ header {
   flex-direction: column;
   align-items: center;
 }
-
 
 /* Default nav links (unvisited) */
 nav a {
