@@ -16,44 +16,36 @@ header {
   align-items: center;
 }
 
-/* Default nav links (unvisited) */
 nav a {
   color: orange;
   margin: 15px;
   text-decoration: none;
 }
 
-/* Unvisited links (general) */
 a:link {
   color: orange;
 }
 
-/* Visited links */
 a:visited {
-  color: #ffbf00;  /* Golden-yellow for visited links outside nav */
+  color: #ffbf00;
 }
 
-/* Hover state for all links */
 a:hover {
   color: gold;
 }
 
-/* Active (clicked) state for all links */
 a:active {
   color: red;
 }
 
-/* Specifically override nav links' visited state to stay orange */
 nav a:visited {
   color: orange !important;
 }
 
-/* Hover on nav links */
 nav a:hover {
   color: gold !important;
 }
 
-/* Active state on nav links */
 nav a:active {
   color: orange !important;
 }
